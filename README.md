@@ -2,7 +2,7 @@
 Navinda Meutia - 05111640000015
 
 ## A. Deskripsi 
-	Aplikasi memiliki homepage berisikan form. User harus mengisi form tersebut sesuai konteks, lalu user akan di-redirect ke halaman tampilan informasi.
+Aplikasi memiliki homepage berisikan form. User harus mengisi form tersebut sesuai konteks, lalu user akan di-redirect ke halaman tampilan informasi.
 
 	#### - Data yang harus di masukkan ke dalam form :
 		1. Title = judul buku
@@ -21,8 +21,8 @@ Navinda Meutia - 05111640000015
 		Menggunakan fungsi return "halaman yang dituju". Data yang dibutuhkan untuk diikutsertakan menuju halaman lain, menggunakan fungsi model.addAttribute.
 
 ## B. Screenshot Form Entry
-	![SS-entry](ss1.png)
+![SS-entry](ss1.png)
 
 ## C. Screenshot Form Hasil
-	![SS-hasil](ss2.png)
+![SS-hasil](ss2.png)
 
