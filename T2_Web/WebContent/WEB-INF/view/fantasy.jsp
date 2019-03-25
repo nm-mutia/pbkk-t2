@@ -12,44 +12,38 @@
 </head>
 <body>
 	<h2>Submitted Fantasy Book Information</h2>
-    <table>
-        <tr>
-            <td>Title :</td>
-            <td>${title}</td>
-        </tr>
-        <tr>
-            <td>Writer :</td>
-            <td>${writer}</td>
-        </tr>
-        <tr>
-            <td>Publisher :</td>
-            <td>${publisher}</td>
-        </tr>
-        <tr>
-            <td>Year :</td>
-            <td>${year}</td>
-        </tr>
-    </table>
     <br/>
-    <h5>In form :</h5>
-    <form:form method="get" modelAttribute="fantasyBook">
-	  	<div class="form-group">
-		    <form:label path="title">Title</form:label>
-		    <form:input class="form-control" path="title" placeholder="${title}"/>
-		 </div>
-		 <div class="form-group">
-		    <form:label path="writer">Writer</form:label>
-		    <form:input class="form-control" path="writer" placeholder="${writer}"/>
-		 </div>
-		 <div class="form-group">
-		    <form:label path="publisher">Publisher</form:label>
-		    <form:input class="form-control" path="publisher" placeholder="${publisher}"/>
-		</div>
-		<div class="form-group">
-		    <form:label path="year">Year</form:label>
-		    <form:input class="form-control" path="year" placeholder="${year}"/>
-		 </div>
-	  	<br/>
-	</form:form>
+	<table class="table table-striped table-dark table-bordered table-responsive-md" >
+		<!-- <thead>
+	    	<tr>
+		      <th scope="col">#</th>
+		      <th scope="col">First</th>
+		      <th scope="col">Last</th>
+		      <th scope="col">Handle</th>
+	    	</tr>
+	  	</thead> -->
+	  	<tbody>
+	    	<tr>
+		      	<th scope="row">1</th>
+		      	<td>Title :</td>
+		      	<td>${title}</td>
+	    	</tr>
+	    	<tr>
+		      	<th scope="row">2</th>
+		      	<td>Writer :</td>
+		      	<td>${writer}</td>
+		    </tr>
+		    <tr>
+		 		<th scope="row">3</th>
+		     	<td>Publisher :</td>
+		     	<td>${publisher}</td>
+	    	</tr>
+	    	<tr>
+		      	<th scope="row">4</th>
+		      	<td>Year :</td>
+            	<td>${year}</td>
+	    	</tr>
+	  	</tbody>
+	</table>
 </body>
 </html>
