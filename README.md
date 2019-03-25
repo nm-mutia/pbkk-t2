@@ -13,9 +13,9 @@ Aplikasi memiliki homepage berisikan form. User harus mengisi form tersebut sesu
 #### - Pemrosesan Data Pada Controller
 Controller memiliki dua fungsi untuk memproses data pada form. 
 1. Fungsi ModelAndView
-Pada fungsi ini menggunakan route URL ("/"), yaitu halaman "main-menu". Pada halaman tersebut tersedia form untuk diisi dan hasil akan ditampilkan pada halaman "fantasy".
+> Pada fungsi ini menggunakan route URL ("/"), yaitu halaman "main-menu". Pada halaman tersebut tersedia form untuk diisi dan hasil akan ditampilkan pada halaman "fantasy".
 2. Fungsi submit
-Pada fungsi ini menggunakan route URL ("/bookFan"), yaitu halaman "fantasy". Pada halaman tersebut, ditampilkan hasil yang telah di-inputkan oleh user. Di fungsi ini, diperlukan adanya addAttribute untuk mem-passing data dari model.
+> Pada fungsi ini menggunakan route URL ("/bookFan"), yaitu halaman "fantasy". Pada halaman tersebut, ditampilkan hasil yang telah di-inputkan oleh user. Di fungsi ini, diperlukan adanya addAttribute untuk mem-passing data dari model.
 	
 #### - Controller mengirimkan data ke halaman view lain
 Menggunakan fungsi return "halaman yang dituju". Data yang dibutuhkan untuk diikutsertakan menuju halaman lain, menggunakan fungsi model.addAttribute.
