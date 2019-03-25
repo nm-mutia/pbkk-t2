@@ -1,8 +1,8 @@
-# PBKK - T2
+# PBKK - Tugas 2
 Navinda Meutia - 05111640000015
 
 ## A. Deskripsi 
-Aplikasi memiliki homepage berisikan form. User harus mengisi form tersebut sesuai konteks, lalu user akan di-redirect ke halaman tampilan informasi.
+Aplikasi ini memiliki homepage berisikan form. User harus mengisi form tersebut sesuai konteks, lalu user akan di-redirect ke halaman tampilan informasi yang telah diisi.
 
 #### - Data yang harus di masukkan ke dalam form :
 1. Title = judul buku
@@ -18,7 +18,7 @@ Controller memiliki dua fungsi untuk memproses data pada form.
 > Pada fungsi ini menggunakan route URL ("/bookFan"), yaitu halaman "fantasy". Pada halaman tersebut, ditampilkan hasil yang telah di-inputkan oleh user. Di fungsi ini, diperlukan adanya addAttribute untuk mem-passing data dari model.
 	
 #### - Controller mengirimkan data ke halaman view lain
-Menggunakan fungsi return "halaman yang dituju". Data yang dibutuhkan untuk diikutsertakan menuju halaman lain, menggunakan fungsi model.addAttribute.
+Menggunakan fungsi return "halaman yang dituju". Data yang dibutuhkan untuk diikutsertakan menuju halaman lain menggunakan fungsi model.addAttribute.
 
 ## B. Screenshot Form Entry
 ![SS-entry](ss1.PNG)
